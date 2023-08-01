@@ -2,10 +2,11 @@ body{
     margin: 0px;
     border-spacing: 0px;
     font-family: 'Open Sans', Arial, sans-serif;
+    display: flex;
 }
 
 .container{
-
+    
     margin: 0px;
     padding-left: 4%;
     padding-right: 4%;
@@ -13,14 +14,19 @@ body{
 
 .summary{
     border-right: 1px solid black;
-    float:left;
+
 }
 
 .content{
-    
+
 }
 
 .heading{
     font-weight: 400;
     font-size: 1.8em;
+}
+
+.chapter{
+    border-bottom: 1px solid black;
+    border-width: 100%;
 }
