@@ -5,20 +5,13 @@ body{
     display: flex;
 }
 
-.container{
-    
-    margin: 0px;
+.container{    
     padding-left: 4%;
     padding-right: 4%;
 }
 
 .summary{
     border-right: 1px solid black;
-
-}
-
-.content{
-
 }
 
 .heading{
@@ -26,7 +19,8 @@ body{
     font-size: 1.8em;
 }
 
-.chapter{
-    border-bottom: 1px solid black;
-    border-width: 100%;
+.divider{
+    height: 1px;
+    width: 100%;
+    background-color: black;
 }
